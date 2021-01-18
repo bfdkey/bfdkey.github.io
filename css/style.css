@@ -796,6 +796,10 @@ a:focus {
     transition: .3s all;
 }
 
+.overlay.portrait {
+    border-radius: 48%;
+}
+
 .grid-item .overlay .inner-overlay {
     width: 100%;
     text-align: center;
@@ -1046,6 +1050,12 @@ a:focus {
 	border-radius: 50%;
 	height: 170px;
 	margin: auto;
+}
+.gallery {
+    padding: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 

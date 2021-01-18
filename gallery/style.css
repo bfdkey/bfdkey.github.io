@@ -1,0 +1,78 @@
+.navbar-inverse {
+  background-color: #AA3939;
+  border: none;
+}
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+  color: #FFD1AA;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #FFD1AA;
+  background: #712626;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+  color: #D49A6A;
+}
+.navbar-inverse .navbar-toggle {
+  border: 3px solid #712626;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #d88b8b;
+}
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #c55151;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #712626;
+}
+
+body {
+  margin-top: 7rem;
+}
+
+.filter-button-group {
+  padding: 15px;
+}
+
+.btn.btn-default {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  background-color: #144879;
+  border-color: #373739;
+  border-radius: 0;
+}
+.btn.btn-default:hover, .btn.btn-default:active, .btn.btn-default:focus, .btn.btn-default.is-checked {
+  background-color: #091437;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.thumbnail {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0px;
+  box-shadow: 3px 3px 3px #adadad;
+}
+
+a.pp_play,
+a.pp_arrow_previous,
+a.pp_arrow_next,
+a.pp_close {
+  display: none;
+}
+
+.pp_social .twitter {
+  float: left;
+  width: 60px;
+}
+
+.pp_social .facebook {
+  float: left;
+  margin-left: 15px;
+  width: 80px;
+  overflow: hidden;
+}
+
+.pp_nav {
+  margin-top: 0;
+}
