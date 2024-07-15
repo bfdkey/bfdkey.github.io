@@ -1,6 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,700);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
+#logoimg {
+    padding: 0px;
+}
+.teamwidth {
+    width: 100%
+}
+#brandlogo {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    margin-left: 10px;
+}
 /* =Common Styles
 -------------------------------------------------------------- */
 header {
@@ -11,18 +22,18 @@ header {
 	transition: opacity 1s ease-in;
 }
 body {
-		background: #ccc url(../images/body-back.png) center;
-		font-family: 'Roboto', sans-serif;
-		font-size: 16px;
-		color: #8e8e8e;
-		height: 100%;
-	  padding-top: 80px;
-	  font-weight: 300;
-		min-height: 100% !important;
+    background: #ccc url(../images/body-back.png) center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+    height: 100%;
+    padding-top: 80px;
+    font-weight: 300;
+    min-height: 100% !important;
 }
 
 body.body-spacing-top {
-    padding-top: 130px;
+    padding-top: 84px;
 }
 
 body.body-static-navbar {
@@ -326,7 +337,7 @@ a:focus {
 }
 
 .navbar-spacing-top-fixed {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .navbar-spacing-top-static {
@@ -1101,6 +1112,9 @@ a:focus {
     #carousel-top-transparent .carousel-control, #carousel-top-image .carousel-control { width:50px }
     .top-content-carousel { padding: 0 40px; border-left: 0; }
     .navbar-spacing-top-static { padding-bottom: 0; }
+    #logoimg {
+        margin-left: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width:992px) {
