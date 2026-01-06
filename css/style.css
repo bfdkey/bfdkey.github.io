@@ -25,7 +25,7 @@ body {
     background: #ccc url(../images/body-back.png) center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #8e8e8e;
+    color: #222;
     height: 100%;
     padding-top: 80px;
     font-weight: 300;
@@ -254,7 +254,7 @@ a:focus {
 .lead-blurb {
     font-size: 16px;
     text-transform: uppercase;
-    color: #a9a9a9;
+    color: #000;
 }
 
 .lead-sm {
